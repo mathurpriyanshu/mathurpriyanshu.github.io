@@ -1,60 +1,58 @@
 //SEO Related settings
 const seo = {
-  title: "Kiran's Portfolio",
-  description:
-    "Kiran's Personal Portfolio",
+  title: "Priyanshu's Portfolio",
+  description: "Priyanshu's Personal Portfolio",
   og: {
-    title: "Kiran Naragund Portfolio",
+    title: "Priyanshu Mathur Portfolio",
     type: "website",
-    url: "http://kirannaragund.com/",
+    url: "http://mathurpriyanshu.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Kiran Naragund",
-  logo_name: "KiranNaragund",
-  
+  title: "Priyanshu Mathur",
+  logo_name: "PriyanshuMathur",
+
   subTitle:
     "Passionate about holistic solutions addressing complex challenges, I develop sustainable systems that make a positive impact through end-to-end product development.",
   resumeLink:
-    "https://drive.google.com/file/d/1pPQA2tOBkr9jm0zQ3AercUBWFhyv5Xvy/view?usp=sharing",
+    "https://docs.google.com/document/d/101ROw-v5kgLHLhspDa_DcW1Mt97iKXyrUkMX_MekJQk/edit?usp=sharing",
   portfolio_repository: "https://github.com/Kiran1689/Kiran1689.github.io",
-  githubProfile: "https://github.com/Kiran1689",
+  githubProfile: "https://github.com/mathurpriyanshu",
 };
 
 const socialMediaLinks = [
-
   {
     name: "Github",
-    link: "https://github.com/Kiran1689",
-    fontAwesomeIcon: "fa-github", 
-    backgroundColor: "#181717", 
+    link: "https://github.com/mathurpriyanshu",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/kiran-a-n",
-    fontAwesomeIcon: "fa-linkedin-in", 
-    backgroundColor: "#0077B5", 
+    link: "https://www.linkedin.com/in/priyanshu-mathur/",
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
-  
+
   {
     name: "Gmail",
-    link: "mailto:kirannaragund197@gmail.com",
-    fontAwesomeIcon: "fa-google", 
-    backgroundColor: "#D14836", 
+    link: "mailto:mathurpriyanshu2890@gmail.com",
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
   },
   {
     name: "Twitter",
     link: "https://twitter.com/kiran__a__n",
-    fontAwesomeIcon: "fa-twitter", 
-    backgroundColor: "#1DA1F2", 
+    fontAwesomeIcon: "fa-twitter",
+    backgroundColor: "#1DA1F2",
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com/kiran_a_n/",
-    fontAwesomeIcon: "fa-instagram", 
-    backgroundColor: "#E4405F", 
+    fontAwesomeIcon: "fa-instagram",
+    backgroundColor: "#E4405F",
   },
 ];
 
@@ -64,10 +62,10 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-		  "⚡ Strong background in ETL (Extract, Transform, Load) processes for data preparation",
-		  "⚡ Hypothesis testing and statistical analysis techniques",
-		  "⚡ Skilled in creating compelling data visualizations with PowerBI for insights",
-		],
+        "⚡ Strong background in ETL (Extract, Transform, Load) processes for data preparation",
+        "⚡ Hypothesis testing and statistical analysis techniques",
+        "⚡ Skilled in creating compelling data visualizations with PowerBI for insights",
+      ],
 
       softwareSkills: [
         {
@@ -78,54 +76,54 @@ const skills = {
             color: "#3776AB",
           },
         },
-		{
-		  skillName: "Pandas",
-		  fontAwesomeClassname: "simple-icons:pandas",
-		  style: {
-			backgroundColor: "transparent",
-			color: "#150458",
-		  },
-		},
-		{
-		  skillName: "NumPy",
-		  fontAwesomeClassname: "simple-icons:numpy",
-		  style: {
-			backgroundColor: "transparent",
-			color: "#11557C",
-		  },
-		},
-		{
-		  skillName: "scikitlearn",
-		  fontAwesomeClassname: "simple-icons:scikitlearn",
-		  style: {
-			backgroundColor: "transparent",
-			color: "#F7931E",
-		  },
-		},
-		{
-		  skillName: "Scipy",
-		  fontAwesomeClassname: "simple-icons:scipy",
-		  style: {
-			backgroundColor: "transparent",
-			color: "#8CAAE6",
-		  },
-		},
-		
-		{
-		  skillName: "Data Visualization",
-		  fontAwesomeClassname: "simple-icons:powerbi",
-		  style: {
-			backgroundColor: "transparent",
-			color: "#E97627",
-		  },
-		},
-    {
-      skillName: "PyTorch",
-      fontAwesomeClassname: "logos-pytorch",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            backgroundColor: "transparent",
+            color: "#150458",
+          },
+        },
+        {
+          skillName: "NumPy",
+          fontAwesomeClassname: "simple-icons:numpy",
+          style: {
+            backgroundColor: "transparent",
+            color: "#11557C",
+          },
+        },
+        {
+          skillName: "scikitlearn",
+          fontAwesomeClassname: "simple-icons:scikitlearn",
+          style: {
+            backgroundColor: "transparent",
+            color: "#F7931E",
+          },
+        },
+        {
+          skillName: "Scipy",
+          fontAwesomeClassname: "simple-icons:scipy",
+          style: {
+            backgroundColor: "transparent",
+            color: "#8CAAE6",
+          },
+        },
+
+        {
+          skillName: "Data Visualization",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: {
+            backgroundColor: "transparent",
+            color: "#E97627",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
       ],
     },
     {
@@ -135,7 +133,7 @@ const skills = {
         "⚡ Building resposive website front end using React",
         "⚡ Creating application backend in Node, Express & Django",
         "⚡ Designing and implementing RESTful APIs for seamless integration",
-        "⚡ Continuously learning and staying updated on the latest web development trends and technologies"
+        "⚡ Continuously learning and staying updated on the latest web development trends and technologies",
       ],
       softwareSkills: [
         {
@@ -272,7 +270,7 @@ const skills = {
           },
         },
       ],
-    }
+    },
   ],
 };
 
@@ -378,7 +376,6 @@ const degrees = {
       website_link: "https://pes.edu/",
     },
 
-
     {
       title: "RTES PU Collage",
       subtitle: "Senior Secondary",
@@ -392,7 +389,6 @@ const degrees = {
       website_link: "https://goo.gl/maps/ZT65DK3HiezX19Ex7/",
     },
 
-
     {
       title: "Lions High School",
       subtitle: "Secondary",
@@ -405,10 +401,8 @@ const degrees = {
       ],
       website_link: "https://goo.gl/maps/5yHPApeyu2aGWv9J7/",
     },
-  ], 
+  ],
 };
-
-
 
 const competitiveSites = {
   competitiveSites: [
@@ -459,8 +453,7 @@ const competitiveSites = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:
-    "",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -477,7 +470,7 @@ const experience = {
           description:
             "I'm currently working as a Full-Stack Developer at CyberWarFare Labs.",
           color: "#000000",
-        }
+        },
       ],
     },
     {
@@ -493,8 +486,7 @@ const experience = {
           description:
             "I have worked on client projects, and developed components for email and password form validation tasks using email-validator library and unit tested validation logic using jest.",
           color: "#000000",
-        }
-        
+        },
       ],
     },
     {
@@ -533,11 +525,10 @@ const experience = {
             "I am a part of core community moderation team at DEV. As a DEV Tag Moderator, I actively contribute to organizing and improving content on DEV. ",
           color: "#fc1f20",
         },
-        
       ],
     },
   ],
-}
+};
 
 // Projects Page
 const projectsHeader = {
@@ -546,7 +537,6 @@ const projectsHeader = {
     "My projects makes use of vast variety of latest technology tools. My best experience is to create full-stack projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
-
 
 // Contact Page
 const contactPageData = {
@@ -565,8 +555,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ranebennur, T.A.-Ranebennur, Dist.-Haveri, Karnataka - 581115",
+    subtitle: "Ranebennur, T.A.-Ranebennur, Dist.-Haveri, Karnataka - 581115",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/cU6oYqqj55KfoH9w5",
   },
@@ -584,7 +573,7 @@ export {
   degrees,
   certifications,
   experience,
-  projectsHeader, 
+  projectsHeader,
   competitiveSites,
   contactPageData,
 };
