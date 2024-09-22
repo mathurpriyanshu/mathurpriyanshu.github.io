@@ -15,10 +15,11 @@ const greeting = {
   logo_name: "PriyanshuMathur",
 
   subTitle:
-    "Passionate about holistic solutions addressing complex challenges, I develop sustainable systems that make a positive impact through end-to-end product development.",
+    "Transforming ideas into impactful software solutions, one line of code at a time.",
   resumeLink:
     "https://docs.google.com/document/d/101ROw-v5kgLHLhspDa_DcW1Mt97iKXyrUkMX_MekJQk/edit?usp=sharing",
-  portfolio_repository: "https://github.com/Kiran1689/Kiran1689.github.io",
+  portfolio_repository:
+    "https://github.com/mathurpriyanshu/mathurpriyanshu.github.io",
   githubProfile: "https://github.com/mathurpriyanshu",
 };
 
@@ -295,111 +296,98 @@ const certifications = {
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
-    {
-      title: "Supervised ML",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/3MDPJMSS8DQH",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Paper Publication",
-      subtitle: "- ISJEM",
-      logo_path: "isjem.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1MGS9vht22hwQuZoZwu8tOl5KUjgYIX4U/view?usp=sharing",
-      alt_name: "ISJEM",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Virtual Internship",
-      subtitle: "- BlackBird",
-      logo_path: "black.png",
-      certificate_link:
-        "https://drive.google.com/file/d/17-iX5Hc1Cgu9jGmsoGZfi6lfhc7x1eww/view?usp=sharing",
-      alt_name: "Internship",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "AWS",
-      subtitle: "- Simplilearn",
-      logo_path: "aws.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1mGWzAqH711YJ0FmzHOwN1Gs8HnmvC74i/view?usp=sharing",
-      alt_name: "aws",
-      color_code: "#FA9C1B",
-    },
-    {
-      title: "Virtual Internship",
-      subtitle: "- Accenture",
-      logo_path: "accenturelogo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1soGDd0-dBE25P3Jcijaun3B1H0Qifums/view?usp=sharing",
-      alt_name: "IBM",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Coding Compitation",
-      subtitle: "- Agoda",
-      logo_path: "Codegoda-logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1r9m4vftAwM5NwVePH2M-2deqhVV2LwVO/view?usp=sharing",
-      alt_name: "Agoda",
-      color_code: "#4D0C83",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "- PrepInsta",
-      logo_path: "prepinsta.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1htXr6ISaD8tUNtj8j14AbIrRIeaRV9jb/view?usp=sharing",
-      alt_name: "IBM",
-      color_code: "#000000",
-    },
+    // {
+    //   title: "Supervised ML",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/certificate/3MDPJMSS8DQH",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "Paper Publication",
+    //   subtitle: "- ISJEM",
+    //   logo_path: "isjem.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1MGS9vht22hwQuZoZwu8tOl5KUjgYIX4U/view?usp=sharing",
+    //   alt_name: "ISJEM",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Virtual Internship",
+    //   subtitle: "- BlackBird",
+    //   logo_path: "black.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/17-iX5Hc1Cgu9jGmsoGZfi6lfhc7x1eww/view?usp=sharing",
+    //   alt_name: "Internship",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "AWS",
+    //   subtitle: "- Simplilearn",
+    //   logo_path: "aws.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1mGWzAqH711YJ0FmzHOwN1Gs8HnmvC74i/view?usp=sharing",
+    //   alt_name: "aws",
+    //   color_code: "#FA9C1B",
+    // },
+    // {
+    //   title: "Virtual Internship",
+    //   subtitle: "- Accenture",
+    //   logo_path: "accenturelogo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1soGDd0-dBE25P3Jcijaun3B1H0Qifums/view?usp=sharing",
+    //   alt_name: "IBM",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Coding Compitation",
+    //   subtitle: "- Agoda",
+    //   logo_path: "Codegoda-logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1r9m4vftAwM5NwVePH2M-2deqhVV2LwVO/view?usp=sharing",
+    //   alt_name: "Agoda",
+    //   color_code: "#4D0C83",
+    // },
+    // {
+    //   title: "Hackathon",
+    //   subtitle: "- PrepInsta",
+    //   logo_path: "prepinsta.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1htXr6ISaD8tUNtj8j14AbIrRIeaRV9jb/view?usp=sharing",
+    //   alt_name: "IBM",
+    //   color_code: "#000000",
+    // },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "PES University ",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "pesu.png",
-      duration: "2019 - 2023",
+      title: "University of Florida",
+      subtitle: "MS in Computer Science",
+      logo_path: "uf_logo.jpeg",
+      duration: "2023 - 2025",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Achieved a commendable GPA of 7.07, showcasing strong academic performance and a solid understanding of the coursework throughout the degree program.",
-        "⚡ Successfully completed several impactful projects, demonstrating practical application of theoretical knowledge and the ability to work on diverse topics within the field of computer science engineering.",
+        "⚡ Pursuing a Master’s degrree in Computer Science with a focus on advanced data structures, distributed systems, and data engineering.",
+        "⚡ Selected to work on an individual research project (individual study) under Dr. Christan Grant, concentrating on AI/ML pipelines for the Fall 2024 semester.",
+        "⚡ Achieved a GPA of 3.44, showcasing strong academic performance and a solid understanding of the coursework throughout the degree program.",
       ],
-      website_link: "https://pes.edu/",
+      website_link: "https://www.ufl.edu/",
     },
 
     {
-      title: "RTES PU Collage",
-      subtitle: "Senior Secondary",
-      logo_path: "rtespu.png",
-      duration: "2017 - 2019",
+      title: "College of Technology and Engineering",
+      subtitle: "B.Tech in Computer Science & Engineering",
+      logo_path: "ctae_logo.png",
+      duration: "2018 - 2022",
       descriptions: [
-        "⚡ Demonstrated exceptional proficiency in the PCM (Physics, Chemistry, Mathematics) subjects with an impressive score of 92.33%, contributing to an overall outstanding score of 89.33% in the Pre-University Course.",
-        "⚡ Selected for the prestigious Merit cum Means Scholarship, awarded to the top 10% of students in the college, recognizing exceptional scholastic achievements and commitment to learning.",
-        "⚡ Received recognition from the respected director for consistently delivering the best performance in academics, reflecting a consistent drive for excellence and a strong work ethic.",
+        "⚡ Graduated with a focus on core computer science principles, including algorithms, data structures, and software engineering.",
+        "⚡ Completed coursework in operating systems, database systems, design & analysis of algorithms and several other interesting courses.",
+        "⚡ Collaborated on team-based projects, enhancing my ability to work effectively in dynamic environments.",
       ],
-      website_link: "https://goo.gl/maps/ZT65DK3HiezX19Ex7/",
-    },
-
-    {
-      title: "Lions High School",
-      subtitle: "Secondary",
-      logo_path: "lions.png",
-      duration: "2014 - 2017",
-      descriptions: [
-        "⚡ Attained an impressive overall score of 93.60% during schooling, demonstrating consistent academic excellence across various subjects.",
-        "⚡ Recognized as the recipient of the prestigious 'Student of the Year' award, acknowledging exceptional leadership, academic performance, and contributions to the school community.",
-        "⚡ Showcased exceptional writing skills by securing two state-level awards for essay writing competitions, reflecting talent, creativity, and effective communication abilities.",
-      ],
-      website_link: "https://goo.gl/maps/5yHPApeyu2aGWv9J7/",
+      website_link: "https://www.ctae.ac.in/",
     },
   ],
 };
@@ -407,12 +395,12 @@ const degrees = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "Exercism",
-      iconifyClassname: "simple-icons:exercism",
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
       style: {
-        color: "#3B00B9",
+        color: "#F79F1B",
       },
-      profileLink: "https://exercism.org/profiles/Kiran1689",
+      profileLink: "https://leetcode.com/mathurpriyanshu/",
     },
     {
       siteName: "HackerRank",
@@ -420,15 +408,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/kirannaragund197",
-    },
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/kiran_a_n/",
+      profileLink: "https://www.hackerrank.com/profile/mathurpriyanshu1",
     },
     {
       siteName: "CodeChef",
@@ -444,7 +424,7 @@ const competitiveSites = {
       style: {
         color: "#2F8D46",
       },
-      profileLink: "https://auth.geeksforgeeks.org/user/kirannaragund",
+      profileLink: "https://www.geeksforgeeks.org/user/priyanshumathur/",
     },
   ],
 };
@@ -461,14 +441,14 @@ const experience = {
       work: false,
       experiences: [
         {
-          title: "Full Stack Developer",
-          company: "C Labs R&D Pvt Ltd",
+          title: "Associate Software Engineer",
+          company: "V2Solutions",
           company_url: "https://cyberwarfare.live/",
           logo_path: "cwl.png",
-          duration: "Jan 2024 - Present",
-          location: "Bangalore",
+          duration: "June 2022 - June 2023",
+          location: "Udaipur, Rajasthan (India)",
           description:
-            "I'm currently working as a Full-Stack Developer at CyberWarFare Labs.",
+            "I worked on the popular CRM - Salesforce as a full-stack developer. I got certified as Salesforce Platform Developer I also during this.",
           color: "#000000",
         },
       ],
@@ -542,7 +522,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "Kiran_profile-fotor.png",
+    profile_image_path: "profile_pic_zoomed.jpeg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
