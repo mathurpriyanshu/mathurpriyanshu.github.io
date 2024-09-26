@@ -60,6 +60,75 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Develop responsive web applications with clean, user-friendly interfaces.",
+        "⚡ Build robust backend systems using technologies like Node.js, Python, and Java.",
+        "⚡ Ensure seamless interaction between front-end and back-end through efficient API calls.",
+        "⚡ Optimize application performance and scalability for a better user experience.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#092E20",
+          },
+        },
+      ],
+    },
+    {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
@@ -123,82 +192,6 @@ const skills = {
           fontAwesomeClassname: "logos-pytorch",
           style: {
             backgroundColor: "transparent",
-          },
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building resposive website front end using React",
-        "⚡ Creating application backend in Node, Express & Django",
-        "⚡ Designing and implementing RESTful APIs for seamless integration",
-        "⚡ Continuously learning and staying updated on the latest web development trends and technologies",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:nodedotjs",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            color: "#092E20",
           },
         },
       ],
@@ -279,20 +272,20 @@ const skills = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning Specialization",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Mastering Data Structures & Algorithms using C and C++",
+      subtitle: "Udemy - Abdul Bari",
+      logo_path: "udemy-new.jpg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/P3LRH2XM3PMG",
-      alt_name: "Stanford University",
+        "https://www.udemy.com/certificate/UC-ac3eeada-a11e-47f6-8564-adb9e6e71eb0/",
+      alt_name: "Udemy certificate",
       color_code: "#8C151599",
     },
     {
-      title: "Advanced Learning Algorithms",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Platform Developer I",
+      subtitle: "Salesforce",
+      logo_path: "pd1.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/SHRT2KB6HJJZ",
+        "https://trailhead.salesforce.com/en/credentials/verification/",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -411,20 +404,20 @@ const competitiveSites = {
       profileLink: "https://www.hackerrank.com/profile/mathurpriyanshu1",
     },
     {
-      siteName: "CodeChef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/kiran1689",
-    },
-    {
       siteName: "GeeksForGeeks",
       iconifyClassname: "simple-icons:geeksforgeeks",
       style: {
         color: "#2F8D46",
       },
       profileLink: "https://www.geeksforgeeks.org/user/priyanshumathur/",
+    },
+    {
+      siteName: "CodeChef",
+      iconifyClassname: "simple-icons:codechef",
+      style: {
+        color: "#5B4638",
+      },
+      profileLink: "https://www.codechef.com/users/mathurpriyansh",
     },
   ],
 };
@@ -441,14 +434,26 @@ const experience = {
       work: false,
       experiences: [
         {
+          title: "Student Developer",
+          company:
+            "Trustworthy Engineered Autonomy(TEA) Lab, University of Florida",
+          company_url: "https://tea.ece.ufl.edu/",
+          logo_path: "tea.jpg",
+          duration: "May 2024 - August 2024",
+          location: "Gainesville, FL",
+          description:
+            "Collaborated on the implementation of cutting-edge research focused on High-Dimensional Controllers. Leveraged DevOps tools like Docker and executed tasks on the HiPerGator supercomputer. Worked closely with professors and researchers to develop reliable, scalable software solutions, contributing to impactful research in autonomous systems.",
+          color: "#000000",
+        },
+        {
           title: "Associate Software Engineer",
           company: "V2Solutions",
-          company_url: "https://cyberwarfare.live/",
-          logo_path: "cwl.png",
+          company_url: "https://www.v2solutions.com/",
+          logo_path: "v2.jpg",
           duration: "June 2022 - June 2023",
           location: "Udaipur, Rajasthan (India)",
           description:
-            "I worked on the popular CRM - Salesforce as a full-stack developer. I got certified as Salesforce Platform Developer I also during this.",
+            "Developed and maintained full-stack applications on Salesforce CRM, including API integrations and custom Lightning Web Components. Optimized system functionality through Apex and JavaScript, ensuring seamless user experiences. Collaborated with cross-functional teams to deliver scalable solutions, performed unit testing, and resolved issues to maintain code quality and performance. Got certified as a Salesforce Platform Developer I during this period.",
           color: "#000000",
         },
       ],
@@ -457,56 +462,56 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Software Engineer",
-          company: "BlackBird",
-          company_url: "https://www.blackbird.vc/",
-          logo_path: "blackbird.png",
-          duration: "March 2023 - May 2023",
-          location: "Virtual",
+          title: "Software Development Intern",
+          company: "Flipshope",
+          company_url: "https://flipshope.com/",
+          logo_path: "flipshope.webp",
+          duration: "May 2021 - October 2021",
+          location: "Remote",
           description:
-            "I have worked on client projects, and developed components for email and password form validation tasks using email-validator library and unit tested validation logic using jest.",
+            "Worked on data analysis projects to optimize customer behavior insights and improve product performance. Developed and implemented data pipelines for gathering, processing, and analyzing large datasets. Utilized tools like Python and Pandas to extract meaningful insights, contributing to data-driven decisions that enhanced business outcomes.",
           color: "#000000",
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "November 2023 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like AutoGPT, Supabase, Tensorflow, Facebook, Scrapy, Exercism, Python, Github community, Forem etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
-        {
-          title: "Mentor",
-          company: "Exercism",
-          company_url: "https://exercism.org/",
-          logo_path: "exercism.png",
-          duration: "September 2023 - PRESENT",
-          location: "Work From Home",
-          description:
-            "Exercism is a coding platform for collaborative learning. As an active participant on Exercism I've mentored over 170+ students worldwide. Through real-world coding exercises, I am providing guidance to learners, helping them to enhance their programming skills and achieve their learning goals.",
-          color: "#4285F4",
-        },
-        {
-          title: "Moderator",
-          company: "Dev Community",
-          company_url: "https://dev.to/",
-          logo_path: "devcommunity.png",
-          duration: "November 2023 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am a part of core community moderation team at DEV. As a DEV Tag Moderator, I actively contribute to organizing and improving content on DEV. ",
-          color: "#fc1f20",
-        },
-      ],
-    },
+    // {
+    //   title: "Volunteerships",
+    //   experiences: [
+    //     {
+    //       title: "Developer Program Member",
+    //       company: "Github",
+    //       company_url: "https://github.com/",
+    //       logo_path: "github_logo.png",
+    //       duration: "November 2023 - PRESENT",
+    //       location: "Work From Home",
+    //       description:
+    //         "I am actively contributing to many opensource projects. I have contributed to projects of organisations like AutoGPT, Supabase, Tensorflow, Facebook, Scrapy, Exercism, Python, Github community, Forem etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+    //       color: "#181717",
+    //     },
+    //     {
+    //       title: "Mentor",
+    //       company: "Exercism",
+    //       company_url: "https://exercism.org/",
+    //       logo_path: "exercism.png",
+    //       duration: "September 2023 - PRESENT",
+    //       location: "Work From Home",
+    //       description:
+    //         "Exercism is a coding platform for collaborative learning. As an active participant on Exercism I've mentored over 170+ students worldwide. Through real-world coding exercises, I am providing guidance to learners, helping them to enhance their programming skills and achieve their learning goals.",
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Moderator",
+    //       company: "Dev Community",
+    //       company_url: "https://dev.to/",
+    //       logo_path: "devcommunity.png",
+    //       duration: "November 2023 - PRESENT",
+    //       location: "Work From Home",
+    //       description:
+    //         "I am a part of core community moderation team at DEV. As a DEV Tag Moderator, I actively contribute to organizing and improving content on DEV. ",
+    //       color: "#fc1f20",
+    //     },
+    //   ],
+    // },
   ],
 };
 
